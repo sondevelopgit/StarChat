@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "844439583548",
+    "firebase_url": "https://starchat-2ee66.firebaseio.com",
+    "project_id": "starchat-2ee66",
+    "storage_bucket": "starchat-2ee66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:844439583548:android:900e54878e6bace3",
+        "android_client_info": {
+          "package_name": "kr.co.star.starchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "844439583548-94q2pju04ki54dio5mobnmrliu29h8g2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kr.co.star.starchat",
+            "certificate_hash": "d2a3640716609298c8e6d2aa821dfe99c2d21f31"
+          }
+        },
+        {
+          "client_id": "844439583548-eqagtnpb9u1ui7jnebpi011tq11e4cjf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCksXUMDP-Z9xKWtACYd8nL1sYzhrHSzlg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "844439583548-eqagtnpb9u1ui7jnebpi011tq11e4cjf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

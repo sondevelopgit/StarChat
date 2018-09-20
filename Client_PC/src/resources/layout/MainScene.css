@@ -1,0 +1,85 @@
+.tab-label {
+    -fx-content-display: top;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 0;
+}
+
+.tab-pane {
+	-fx-tab-min-height: 68;
+    -fx-tab-max-height: 68;
+    -fx-tab-min-width: 66;
+    -fx-tab-max-width: 66;
+}
+
+.tab:selected {
+    -fx-focus-color: transparent;
+}
+
+.tab {
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-shape: null;
+	-fx-background-color: transparent;
+}
+
+.tab:selected {
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-shape: null;
+	-fx-background-color: transparent;
+}
+
+.tab-pane .myTab1 {
+	-fx-background-image: url("profile_base.png"); /* /@../drawable/ */
+}
+
+.tab-pane .myTab1:selected {
+	-fx-background-image: url("profile_focus.png"); /* /@../drawable/ */
+}
+
+.tab-pane .myTab2 {
+	-fx-background-image: url("chat_base.png"); /* /@../drawable/ */
+}
+
+.tab-pane .myTab2:selected {
+	-fx-background-image: url("chat_focus.png"); /* /@../drawable/ */
+}
+
+.tab-pane .myTab3 {
+	-fx-background-image: url("preference_base.png"); /* /@../drawable/ */
+}
+
+.tab-pane .myTab3:selected {
+	-fx-background-image: url("preference_focus.png"); /* /@../drawable/ */
+}
+
+.buttonSearchCloseIcon {
+    -glyph-size: 15;
+    -glyph-name: CLOSE;
+}
+
+.buttonSearchClose, .buttonSearchUp, .buttonSearchDown {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+}
+
+.list-cell:empty {
+    /* -fx-background-color: white; */
+    -fx-opacity: 0;
+}
+ 
+.list-cell:filled:hover {
+    -fx-background-color: #E0F0FE;
+    -fx-text-fill: white;
+}
+ 
+.list-cell:filled:selected:focused, .list-cell:filled:selected {
+  -fx-background-color: #0096C6;
+  -fx-text-fill: white;
+}
+
+.list-cell:odd {
+    -fx-background-color: white;
+}

@@ -1,0 +1,36 @@
+TextField {
+	-fx-border: none;
+	-fx-background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+
+    -fx-background-color: #ffffff , #ffffff , #ffffff, #ffffff;
+    -fx-background-insets: 0 0 0 0, 0 0 0 0, 0 0 0 0;
+}
+
+TextField:focused {
+    -fx-background-color: #FF4081 , #ffffff , #ffffff, #ffffff;
+    -fx-background-insets: 0 0 -3 0, 0 0 0 0, 0 0 0 0;
+}
+
+PasswordField {
+	-fx-border: none;
+	-fx-background: bottom left linear-gradient(#a9a9a9, #a9a9a9) no-repeat, bottom center linear-gradient(#a9a9a9, #a9a9a9) repeat-x, bottom right linear-gradient(#a9a9a9, #a9a9a9) no-repeat;
+
+    -fx-background-color: #ffffff , #ffffff , #ffffff, #ffffff;
+    -fx-background-insets: 0 0 0 0, 0 0 0 0, 0 0 0 0;
+}
+
+PasswordField:focused {
+    -fx-background-color: #FF4081 , #ffffff , #ffffff, #ffffff;
+    -fx-background-insets: 0 0 -3 0, 0 0 0 0, 0 0 0 0;
+}
+
+Button {
+    -fx-background-color : #E03B5D;
+    -fx-text-fill        : #FFE0DD;
+    -fx-font-weight      : 900;
+    }
+
+Button:hover {
+    -fx-background-color : #EF6B80;
+    -fx-font-weight      : 900;
+    }

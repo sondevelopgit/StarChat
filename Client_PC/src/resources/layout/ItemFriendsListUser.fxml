@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="anchorPane" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="56.0">
+         <children>
+            <ImageView fx:id="imvProfile" fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true">
+               <HBox.margin>
+                  <Insets left="8.0" right="16.0" />
+               </HBox.margin>               
+            </ImageView>
+            <Label fx:id="txvName" text="" />
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

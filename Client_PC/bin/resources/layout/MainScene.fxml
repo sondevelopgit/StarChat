@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane style="-fx-background-color: #ffffff;" stylesheets="@MainScene.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.co.star.starchat.clientpc.app.controller.MainController">
+   <children>
+      <Pane prefHeight="72.0" prefWidth="416.0" style="-fx-background-color: #1F4A6A;" />
+      <VBox prefHeight="518.0" prefWidth="416.0">
+         <children>
+            <TabPane prefHeight="590.0" tabClosingPolicy="UNAVAILABLE">
+              <tabs>
+                <Tab styleClass="myTab1">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0">
+                           <children>
+                              <VBox>
+                                 <children>
+                                    <HBox prefHeight="28.0" prefWidth="408.0">
+                                       <children>
+                                          <ImageView fitHeight="28.0" fitWidth="28.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                             <Image url="@../drawable/search_icon.png" />
+                                             </image>
+                                          </ImageView>
+                                          <TextField prefHeight="28.0" prefWidth="368.0">
+                                             <HBox.margin>
+                                                <Insets left="4.0" />
+                                             </HBox.margin>
+                                          </TextField>
+                                       </children>
+                                       <VBox.margin>
+                                          <Insets top="6.0" />
+                                       </VBox.margin>
+                                    </HBox>
+                                    <ListView fx:id="lvFriendsList">
+                                       <VBox.margin>
+                                          <Insets top="8.0" />
+                                       </VBox.margin>
+                                    </ListView>
+                                 </children>
+                                 <padding>
+                                    <Insets bottom="2.0" left="4.0" right="2.0" top="2.0" />
+                                 </padding>
+
+                              </VBox>
+                           </children></AnchorPane>
+                  </content>
+                </Tab>
+                <Tab styleClass="myTab2">
+                  <content>
+                    <AnchorPane minHeight="0.0" minWidth="0.0" />
+                  </content>
+                </Tab>
+                  <Tab styleClass="myTab3">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" />
+                     </content>
+                  </Tab>
+              </tabs>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TabPane>
+         </children>
+         <padding>
+            <Insets top="-4.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.* ?>
+<?import javafx.scene.shape.* ?>
+<?import javafx.scene.text.* ?>
+<?import javafx.geometry.* ?>
+<?import javafx.scene.control.* ?>
+<?import java.lang.* ?>
+<?import javafx.scene.layout.* ?>
+<?import javafx.scene.layout.AnchorPane ?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.co.star.starchat.server.main.MainController">
+   <children>
+      <VBox>
+         <children>
+            <VBox alignment="CENTER_LEFT" prefHeight="40.0" prefWidth="350.0">
+               <children>
+                  <HBox alignment="CENTER_LEFT">
+                     <children>
+                        <Button mnemonicParsing="false" text="Server ON" fx:id="ButtonServerOn" onAction="#handleButtonAction">
+                           <padding>
+                              <Insets bottom="5.0" left="16.0" right="16.0" top="6.0" />
+                           </padding>
+                        </Button>
+                        <Button mnemonicParsing="false" text="Server OFF" fx:id="ButtonServerOff" onAction="#handleButtonAction">
+                           <HBox.margin>
+                              <Insets left="12.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="14.0" right="14.0" top="6.0" />
+                           </padding>
+                        </Button>
+                        <Button mnemonicParsing="false" text="User">
+                           <HBox.margin>
+                              <Insets left="12.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="11.0" right="10.0" top="6.0" />
+                           </padding>
+                        </Button>
+                        <Button mnemonicParsing="false" text="Notice">
+                           <HBox.margin>
+                              <Insets left="12.0" />
+                           </HBox.margin>
+                           <padding>
+                              <Insets bottom="5.0" left="14.0" right="14.0" top="6.0" />
+                           </padding>
+                        </Button>
+                     </children>
+                     <padding>
+                        <Insets left="10.0" right="10.0" />
+                     </padding>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="4.0">
+               <children>
+                  <Line endX="338.0" stroke="#867f7f" strokeWidth="0.5">
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin></Line>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="4.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox alignment="CENTER_LEFT">
+               <children>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="228.0">
+                     <children>
+                        <Label text="현재 서버 상태:">
+                           <font>
+                              <Font name="Bitstream Vera Sans Mono" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="4.0" left="4.0" right="8.0" top="4.0" />
+                           </padding>
+                        </Label>
+                        <Label text="OFF">
+                           <font>
+                              <Font name="Bitstream Vera Sans Mono" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="228.0">
+                     <children>
+                        <Label text="총 유저 수:">
+                           <font>
+                              <Font name="Bitstream Vera Sans Mono" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="4.0" left="4.0" right="8.0" top="4.0" />
+                           </padding>
+                        </Label>
+                        <Label text="1000">
+                           <font>
+                              <Font name="Bitstream Vera Sans Mono" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox alignment="CENTER_LEFT" prefHeight="20.0" prefWidth="228.0">
+                     <children>
+                        <Label text="총 채팅 수:">
+                           <font>
+                              <Font name="Bitstream Vera Sans Mono" size="13.0" />
+                           </font>
+                           <padding>
+                              <Insets bottom="4.0" left="4.0" right="8.0" top="4.0" />
+                           </padding>
+                        </Label>
+                        <Label text="500">
+                           <font>
+                              <Font name="Bitstream Vera Sans Mono" size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="4.0">
+               <children>
+                  <Line endX="338.0" stroke="#867f7f" strokeWidth="0.5" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="8.0" top="4.0" />
+               </VBox.margin>
+            </HBox>
+            <VBox prefHeight="240.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <ListView fx:id="listviewContent" prefHeight="200.0" prefWidth="200.0">
+                  </ListView>
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets bottom="8.0" top="6.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

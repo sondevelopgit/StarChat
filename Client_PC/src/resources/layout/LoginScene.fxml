@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="370.0" stylesheets="@LoginScene.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="kr.co.star.starchat.clientpc.app.controller.LoginController">
+   <children>
+      <VBox prefHeight="440.0" prefWidth="370.0" style="-fx-background-color: #4483BB;">
+         <children>
+            <VBox alignment="CENTER" prefHeight="124.0" prefWidth="420.0" style="-fx-background-color: #1F4A6A;">
+               <children>
+                  <ImageView fitHeight="124.0" fitWidth="220.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../drawable/chat-main.png" />
+                     </image>
+                  </ImageView>
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <VBox.margin>
+                  <Insets bottom="60.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" fillWidth="false" prefWidth="100.0">
+               <children>
+                  <TextField fx:id="edtUserID" prefHeight="32.0" prefWidth="300.0" promptText="user name">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <padding>
+                        <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+                     </padding>
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </TextField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="14.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" fillWidth="false" prefWidth="100.0">
+               <children>
+                  <PasswordField fx:id="edtUserPW" prefHeight="32.0" prefWidth="300.0" promptText="password">
+                     <font>
+                        <Font size="12.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="4.0" left="8.0" right="8.0" top="4.0" />
+                     </padding>
+                  </PasswordField>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="16.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="TOP_CENTER" fillWidth="false" prefWidth="100.0">
+               <children>
+                  <Button fx:id="btnSignIn" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="32.0" prefWidth="300.0" text="Sign In">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="40.0" />
+               </VBox.margin>
+            </VBox>
+            <VBox alignment="CENTER" fillWidth="false" prefWidth="100.0">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="60.0">
+                     <children>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="Forgot password?" textAlignment="CENTER" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets right="24.0" />
+                           </HBox.margin></Label>
+                        <Label alignment="CENTER" contentDisplay="CENTER" text="New here? Sign Up" textAlignment="CENTER" textFill="WHITE">
+                           <HBox.margin>
+                              <Insets left="24.0" />
+                           </HBox.margin></Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
